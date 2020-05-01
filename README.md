@@ -1,11 +1,12 @@
-# Digital-Image-Processing
-### Here you can find my projects in digital image processing: 
-**1.** Detection and extraction of 6 different objects in an image. Comparing those objects on 2 images and finding rotation, translation and scaling of matched objects. Using these 2D transformations to restore coordinates on distorted image. (Python)
+You are given 2 grayscale images, image **before distortion** and same image **after distortion**.
+Find the (x, y) coordinates of the centroid (center of mass) of every shape in the 2 images you are given. 
+Classify each shape into 6 categories (cross, spiral, circle, flower, star, donut). 
+Given the (x, y) positions of the stars in the undistorted image, find their (x, y) positions in the distorted image.
+Distortions can be: **translation**, **rotation**, **scaling** or their combination.
 
-**2.** Extracting time from the given image of clock (Matlab)
+**DATA**: 
+Source and distorted images can be found in **PublicDataSet/public/set** and input coordinates of the stars can be found in
+**PublicDataSet/public/input**.
 
-**3.** Extracting score of red and blue dices from image (Matlab)
-
-**4.** Filtering and repairing quality of different images (Matlab) 
-
-**5** Canny's edge detection algorithm, written from scratch (Matlab)
+**TESTING**:
+To test the example run the **Mapping Stars.py** file and input the number of example you want to test.
