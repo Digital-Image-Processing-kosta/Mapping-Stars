@@ -1,4 +1,6 @@
 # MAPPING STARS
+Restoring distorted images (distortions can be translation, rotation and scaling) and non-ML recognition of 8 different shapes.
+# PROBLEM DESCRIPTION
 You are given 2 grayscale images, image **before distortion** and same image **after distortion**.
 Find the (x, y) coordinates of the centroid (center of mass) of every shape in the 2 images you are given. 
 Classify each shape into 6 categories (cross, spiral, circle, flower, star, donut). 
